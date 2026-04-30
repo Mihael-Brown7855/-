@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dragonmod",
+  "version": "${version}",
+  "name": "Dragon Mod",
+  "description": "Adds a hostile fire dragon, a spawn egg, dragon scales, and a creative tab.",
+  "authors": [
+    "Cursor"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dragonmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.dragonmod.DragonMod"
+    ],
+    "client": [
+      "com.example.dragonmod.client.DragonModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
