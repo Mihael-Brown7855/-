@@ -2,6 +2,10 @@
 
 Fabric mod for Minecraft 1.20.1 that adds a hostile fire dragon.
 
+## Ready-to-use jar
+
+If you only want to play the mod, download `dist/dragonmod-1.0.0.jar` and put it into your Minecraft `mods` folder.
+
 ## Features
 
 - Fire Dragon entity with high health, armor, melee damage, fire immunity, flame particles, and dragon sounds.
